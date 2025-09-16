@@ -114,9 +114,7 @@ public:
 private:
     bool createPipeline(size_t index) {
         QString pipelineStr = QString(
-            "souphttpsrc location=%1 is-live=true do-timestamp=true timeout=10 ! "
-            "queue max-size-buffers=3 leaky=downstream ! "
-            "multipartdemux ! "
+            "souphttpsrc location=%1 is-live=true ! "
             "jpegdec ! "
             "videoconvert ! "
             "glupload ! glcolorconvert ! "
