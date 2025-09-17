@@ -4,7 +4,7 @@
 This is a simple QtQuick application to demostrate integrating Gstreamer into Qt6 qml UI.
 Additional commits were tested on Windows 11 and Qt6.9.2.
 
-Used (turn-webcam-into-an-ipcamera)[https://github.com/rafaelscariot/turn-webcam-into-an-ipcamera/tree/master] to turn webcams and USB cameras to IP cameras.
+Used https://github.com/rafaelscariot/turn-webcam-into-an-ipcamera/tree/master to turn webcams and USB cameras to IP cameras.
 
 ## Build Info
 - Qt 6.8.2 MSVC2022 64bit
